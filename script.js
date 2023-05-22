@@ -57,3 +57,9 @@ function handleMouseOut() {
 
   ga('create', 'UA-46156385-1', 'cssscript.com');
   ga('send', 'pageview');
+
+  function closeFloatingBox() {
+    var floatingContainer = document.querySelector('.floating-container');
+    floatingContainer.style.display = 'none';
+  }
+  
